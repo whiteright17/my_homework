@@ -1,0 +1,8 @@
+a = input('Set1')
+b = input('Set2')
+set_a = set(a)
+set_b = set(b)
+Result_task = len(set_a) == len(set(set_a))
+print("Unique_set_a:", Result_task)
+Result_task_two = len(set_b) == len(set(set_b))
+print("Unique_set_b:", Result_task_two)
