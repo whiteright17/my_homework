@@ -9,4 +9,3 @@ def is_prime(number):
 number = input('Write number:')
 result = is_prime(number)
 print(result)
-
