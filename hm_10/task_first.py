@@ -23,3 +23,4 @@ result = arithmetic_function(3, 0, '/')
 print(result)
 result = arithmetic_function(3, 3, '%')
 print(result)
+
