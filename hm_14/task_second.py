@@ -11,6 +11,8 @@ class Worker:
         info += f"Salary: ${self.salary}\n"
         info += f"Employee ID: {self.employee_id}"
         return info
+    def calculate_annual_salary(self):
+        return self.salary * 12
 
 worker1 = Worker(
     name="Vadym Andriienko",
@@ -18,4 +20,7 @@ worker1 = Worker(
     salary=123000,
     employee_id="EMP0604"
 )
+annual_salary = worker1.calculate_annual_salary()
+
 print(worker1.get_info())
+print(f"Annual Salary: ${annual_salary}")
