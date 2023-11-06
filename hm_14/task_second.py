@@ -25,7 +25,6 @@ class Worker:
     def calculate_annual_salary(self):
         return self.salary * 12
 
-# Example usage:
 worker1 = Worker()
 worker1.custom_human(
     name="Vadym Andriienko",
