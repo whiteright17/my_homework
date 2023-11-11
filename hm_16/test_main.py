@@ -1,3 +1,8 @@
-from predator import predator
-lion = predator(species="Lion", place="Africa", character="Wicked", rank="King")
+from predator import Predator
+
+lion = Predator(species="Lion", place="Africa", character="Wicked", rank="King")
+
+print(lion.species)
+lion.species = "Tiger"
+
 print(lion.describe())
